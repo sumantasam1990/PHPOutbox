@@ -112,4 +112,6 @@ We ship only `LaravelQueuePublisher` (uses Laravel's queue system — Redis, SQS
 - ❌ Do NOT catch exceptions silently — always log and re-throw or handle explicitly
 - ❌ Do NOT modify `OutboxMessage` properties after construction (it's `readonly`)
 - ❌ Do NOT use `json_encode` without `JSON_THROW_ON_ERROR`
-- ❌ Do NOT forget to update all three Schema methods when changing the table structure
+## Contributing
+
+For more information on the contribution process, coding standards, and how to submit pull requests, please refer to [CONTRIBUTING.md](../CONTRIBUTING.md).

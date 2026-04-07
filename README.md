@@ -263,6 +263,8 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for detailed flow diagrams, con
 
 ## Contributing
 
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct, how to submit pull requests, and our development process.
+
 1. Fork the repository
 2. Create a feature branch
 3. Write tests for your changes

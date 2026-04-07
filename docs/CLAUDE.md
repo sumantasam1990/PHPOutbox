@@ -102,3 +102,7 @@ composer install                          # Install dependencies
 - Mutable state on value objects — use `readonly` + `with*()` pattern
 - Direct `echo`/`print` — use PSR-3 logger
 - Storing large blobs in outbox payload — use references (S3 URLs, etc.)
+
+## Contributing
+
+For more information on the contribution process, coding standards, and how to submit pull requests, please refer to [CONTRIBUTING.md](../CONTRIBUTING.md).
