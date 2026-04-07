@@ -1,0 +1,17 @@
+parameters:
+    level: 8
+    paths:
+        - src
+        - src-laravel
+        - src-symfony
+    excludePaths:
+        - vendor
+    reportUnmatchedIgnoredErrors: false
+    ignoreErrors:
+        - '#Call to an undefined method Illuminate\\Foundation\\Application::#'
+        -
+            message: '#Parameter \#1 \$callback of function pcntl_signal expects#'
+            reportUnmatched: false
+        -
+            message: '#Cannot access property \$id on object#'
+            reportUnmatched: false

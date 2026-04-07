@@ -1,0 +1,10 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    PhpOutbox\Outbox\Symfony\Command\OutboxRelayCommand:
+        tags: ['console.command']
+
+    PhpOutbox\Outbox\Symfony\Command\OutboxPruneCommand:
+        tags: ['console.command']
