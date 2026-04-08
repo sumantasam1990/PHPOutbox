@@ -33,16 +33,16 @@ DB::transaction(function () use ($order) {
 
 ## Features
 
-- 🔒 **Atomic writes** — Events stored in the same DB transaction as business data
-- 🔄 **Background relay** — Polls outbox table, publishes to your queue
-- 🔁 **Retry with backoff** — Failed publishes retry automatically
-- 💀 **Dead letter queue** — Messages moved to dead-letter after max retries
-- ⚡ **Concurrent workers** — Multiple relays via `SELECT FOR UPDATE SKIP LOCKED`
-- 🎯 **Framework-agnostic** — Core works with raw PDO, zero framework deps
-- 🟥 **Laravel adapter** — ServiceProvider, Facade, Artisan commands
-- 🟦 **Symfony adapter** — Bundle, Console commands, Messenger integration
-- 📊 **Observability** — PSR-3 logging, relay metrics per cycle
-- 🧹 **Housekeeping** — Auto-prune old messages
+- **Atomic writes** — Events stored in the same DB transaction as business data
+- **Background relay** — Polls outbox table, publishes to your queue
+- **Retry with backoff** — Failed publishes retry automatically
+- **Dead letter queue** — Messages moved to dead-letter after max retries
+- **Concurrent workers** — Multiple relays via `SELECT FOR UPDATE SKIP LOCKED`
+- **Framework-agnostic** — Core works with raw PDO, zero framework deps
+- **Laravel adapter** — ServiceProvider, Facade, Artisan commands
+- **Symfony adapter** — Bundle, Console commands, Messenger integration
+- **Observability** — PSR-3 logging, relay metrics per cycle
+- **Housekeeping** — Auto-prune old messages
 
 ## Requirements
 
