@@ -12,7 +12,7 @@ By participating in this project, you agree to abide by our Code of Conduct (sta
 
 ### 1. Reporting Bugs
 
-- Check if the bug is already reported in the [Issues](https://github.com/phpoutbox/outbox/issues) tracker.
+- Check if the bug is already reported in the [Issues](https://github.com/sumantasam1990/PHPOutbox/issues) tracker.
 - If not, create a new issue. Provide as much detail as possible, including:
     - PHP version and framework version (if applicable).
     - Steps to reproduce the bug.

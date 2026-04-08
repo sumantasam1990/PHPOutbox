@@ -2,7 +2,7 @@
 
 ## Transactional Outbox Pattern for PHP
 
-**Package:** `phpoutbox/outbox`  
+**Package:** `sumantasam1990/phpoutbox`  
 **Version:** 1.0.0  
 **Last Updated:** 2026-04-07  
 **Status:** Draft

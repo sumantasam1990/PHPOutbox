@@ -53,7 +53,7 @@ DB::transaction(function () use ($order) {
 ## Installation
 
 ```bash
-composer require phpoutbox/outbox
+composer require sumantasam1990/phpoutbox
 ```
 
 ## Quick Start
